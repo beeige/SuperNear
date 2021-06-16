@@ -1,0 +1,7 @@
+name: SuperNear
+main: pozer.Main
+version: 1.0
+commands:
+  near:
+
+
