@@ -1,6 +1,6 @@
 name: SuperNear
-main: pozer.Main
-version: 1.0
+main: SuperNear.Main
+version: 1.2
 commands:
   near:
 
