@@ -11,7 +11,9 @@ public class Main extends JavaPlugin {
 			saveDefaultConfig();
 		} 
 
-		getCommand("near").setExecutor(new CMD(this));
+		getCommand("near").setExecutor(new Near(this));
+		getCommand("nearhide").setExecutor(new NearHide(this));
+		getCommand("nearposition").setExecutor(new NearPosition(this));
 
 	}
 }
