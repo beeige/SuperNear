@@ -11,14 +11,14 @@ public class Direction {
 		this.main = main;
 	}
 	
-	private String straight = "§d\u21d1 §7Прямо. \n";
-	private String left = "§d\u21d0 §7Налево.\n";
-	private String right = "§d\u21d2 §7Направо.\n";
-	private String back = "§d\u21d3 §7Назад.\n";
-	private String straightLeft = "§d\u21d6 §7Прямо Налево.\n";
-	private String straightRight = "§d\u21d7 §7Прямо Направо.\n";
-	private String backLeft = "§d\u21d9 §7Назад Налево.\n";
-	private String backRight = "§d\u21d8 §7Назад Направо.\n";
+	private String straight = "В§e\u21d1 В§7ГЏГ°ГїГ¬Г®. \n";
+	private String left = "В§e\u21d0 В§7ГЌГ Г«ГҐГўГ®.\n";
+	private String right = "В§e\u21d2 В§7ГЌГ ГЇГ°Г ГўГ®.\n";
+	private String back = "В§e\u21d3 В§7ГЌГ Г§Г Г¤.\n";
+	private String straightLeft = "В§e\u21d6 В§7ГЏГ°ГїГ¬Г® ГЌГ Г«ГҐГўГ®.\n";
+	private String straightRight = "В§e\u21d7 В§7ГЏГ°ГїГ¬Г® ГЌГ ГЇГ°Г ГўГ®.\n";
+	private String backLeft = "В§e\u21d9 В§7ГЌГ Г§Г Г¤ ГЌГ Г«ГҐГўГ®.\n";
+	private String backRight = "В§e\u21d8 В§7ГЌГ Г§Г Г¤ ГЌГ ГЇГ°Г ГўГ®.\n";
 	
 	public String getdirection(int yaw) {
 		
@@ -77,7 +77,7 @@ public class Direction {
 			exception.add(data + " yaw:" + yaw + "");
 			main.getConfig().set("Exception", exception);
 			main.saveConfig();
-		return new String("§cОшибка! Сообщите администрации\n");		
+		return new String("В§cГЋГёГЁГЎГЄГ ! Г‘Г®Г®ГЎГ№ГЁГІГҐ Г Г¤Г¬ГЁГ­ГЁГ±ГІГ°Г Г¶ГЁГЁ\n");		
 		}	
 	}
 }
